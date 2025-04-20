@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrickInfoBot Chat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+    h1 {
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to CrickInfoBot!</h1>
+  <p>Ask anything about cricket – live scores, player stats, and upcoming matches.</p>
+
+  <!-- Dialogflow Messenger Integration -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="CrickInfoBot"
+  agent-id="3b356588-bc95-4d51-8991-65186d9cb6ca"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
